@@ -1,0 +1,40 @@
+    /* 
+   File: index.css
+   Author: Mao Tabuchi
+   Student ID: 301266182
+   Date: September 30, 2023
+*/
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style the navigation bar links */
+ul.navbar li {
+    float: left;
+}
+
+ul.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.navbar li a:hover {
+    background-color: #555;
+}
+
+.content{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.statement{
+    margin-top: 300px;
+    text-align: center;
+}
