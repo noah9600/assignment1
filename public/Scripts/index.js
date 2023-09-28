@@ -1,9 +1,5 @@
-function showAlert() {
-    alert("Hello, this is an alert!");
-}
-
-// Function to change the text of an element when a button is clicked
-function changeText() {
-    var paragraph = document.getElementById("demoParagraph");
-    paragraph.innerHTML = "Text has been changed!";
-}
+function changeBackgroundColor() {
+    var colors = ["#ffd700", "#ff6b6b", "#9af5a3", "#a3c6ff", "#f5a3e3"];
+    var randomColor = colors[Math.floor(Math.random() * colors.length)];
+    document.body.style.backgroundColor = randomColor;}
+    

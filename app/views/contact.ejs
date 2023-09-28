@@ -11,6 +11,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/Content/contact.css" rel="stylesheet" type="text/css">
+    <script src="/Scripts/contact.js"></script>
+
     <title>Contact</title>
     <style>
     </style>
@@ -46,6 +48,8 @@
 
             <label for="message">Message:</label>
             <textarea id="message" name="message" rows="4" required></textarea>
+
+            <form action="/" method="post" onsubmit="return validateForm();">
 
             <button type="submit">Submit</button>
         </form>
