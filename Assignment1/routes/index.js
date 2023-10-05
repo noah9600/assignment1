@@ -1,10 +1,8 @@
-const express = require('express');
-const router = express.Router();
+process.env.NODE_ENV = process.env.NODE_ENV || 'development';
+var express = require('./config/express');
+var app = express();
+app.listen(3000);
+module.exports = app;
 
-router.get('/', (req, res) => {
+console.log('Server running at http://localhost:3000/');
 
-  res.render('index');
-});
-
-
-module.exports = router;
